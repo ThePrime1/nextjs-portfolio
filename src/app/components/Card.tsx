@@ -1,7 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
+import { FC } from 'react';
 
-function Card({ project }) {
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  img: string;
+  link: string;
+}
+
+const Card: FC<{ project: Project }> = ({ project }) => {
   return (
     <div className='max-w-sm p-4 bg-zinc-700 rounded-lg shadow-sm hover:shadow-teal-500 transition duration-300'>
       <img
@@ -23,6 +32,6 @@ function Card({ project }) {
       </div>
     </div>
   );
-}
+};
 
 export default Card;

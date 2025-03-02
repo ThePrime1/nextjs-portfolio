@@ -30,21 +30,21 @@ const backend = [
     title: 'NODEJS',
     img: '/nodejs.svg',
     description:
-      'Expert in building custom landing pages using HTML and CSS. Adding interactivity using JavaScript. Familier with different ui framworks like DaisyUI, Bootstrap, MUI etc.',
+      'Experienced in building REST API as well as microservices that scales and performs, handles load and provides better security..',
   },
   {
     id: 2,
     title: 'EXPRESSJS',
     img: '/express.svg',
     description:
-      'Building user interfaces, single page applications with the most popular javascript library is my expertise.Building intuitive ui and bringing ideas to life with codes',
+      'The most popular nodejs routing and middleware framwork, experience in building REST API and microservices. Implementing route guards, authentication with JWT, 0auth, PassportJWT etc.',
   },
   {
     id: 3,
     title: 'MONGODB',
     img: '/mongo.svg',
     description:
-      'NextJS is the most populer REACTJS framwork. With SSR & SSG supported out of the box, I can build high performant frontend as well as backend REST API.',
+      'A popular nosql database that performs well and integrates seemlessly with nodejs apps.',
   },
 ];
 
